@@ -17,7 +17,7 @@ namespace FirstDigitOfNumber
 
             for (int i = 0; i < 1; i++)
             {
-                firstDigit = number % 10;
+                firstDigit = number % 10;   //определяем первую цифру числа
             }
 
             Console.WriteLine($"Первая цифра числа = {firstDigit}");
