@@ -14,10 +14,13 @@ namespace FirstDigitOfNumber
             int number = int.Parse(Console.ReadLine());  //считываем значение переменной number
 
             int firstDigit = 0;
+            int digitCount = (int)Math.Log10(number) + 1; //находим количество цифр в числе
 
-            for (int i = 0; i < 1; i++)
+
+            for (int i = 1; i < digitCount; i++)
             {
-                firstDigit = number % 10;   //определяем первую цифру числа
+                firstDigit = number / 10;   //определяем крайнюю левую цифру числа
+                number = firstDigit;
             }
 
             Console.WriteLine($"Первая цифра данного числа {number} = {firstDigit}");
