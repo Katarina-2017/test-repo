@@ -11,7 +11,7 @@ namespace FirstDigitOfNumber
         static void Main(string[] args)
         {
             Console.WriteLine("Введите число");
-            int number = int.Parse(Console.ReadLine());
+            int number = int.Parse(Console.ReadLine());  //считываем значение переменной number
 
             int firstDigit = 0;
 
