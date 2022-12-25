@@ -20,7 +20,7 @@ namespace FirstDigitOfNumber
                 firstDigit = number % 10;   //определяем первую цифру числа
             }
 
-            Console.WriteLine($"Первая цифра числа = {firstDigit}");
+            Console.WriteLine($"Первая цифра данного числа {number} = {firstDigit}");
             Console.ReadKey();
         }
     }
