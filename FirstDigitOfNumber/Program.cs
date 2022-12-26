@@ -10,6 +10,8 @@ namespace FirstDigitOfNumber
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Программа находит первую цифру введенного числа");
+
             Console.WriteLine("Введите число");
             int number = int.Parse(Console.ReadLine());  //считываем значение переменной number
 
